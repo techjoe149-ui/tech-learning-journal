@@ -1,0 +1,8 @@
+This repository documents my journey learning ;
+Git 
+GitHub
+Linux
+AI Automation
+Cybersecurity
+
+The goal is to build technical skills while maintaining professional documentation practice.
