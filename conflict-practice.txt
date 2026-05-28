@@ -1,1 +1,5 @@
-git merge conflict practice version 4
+git merge conflict practice
+main branch eddited to version 4
+branch version edited to version 2
+conflict resolved successfully
+
