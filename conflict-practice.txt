@@ -1,2 +1,2 @@
-git merge conflict practice version 1
+git merge conflict practice version 2
 
