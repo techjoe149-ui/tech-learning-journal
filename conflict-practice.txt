@@ -1,0 +1,2 @@
+git merge conflict practice version 1
+
