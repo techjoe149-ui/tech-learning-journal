@@ -38,5 +38,5 @@ notes.md =personal learning log
 
 - moved project folder into the correct git repo location 
 - renamed incorrect file structures into proper folders 
-- rebuilt correct project hierarchy atep by step 
+- rebuilt correct project hierarchy step by step 
 - used mv, mkdir and correctly for organization .
