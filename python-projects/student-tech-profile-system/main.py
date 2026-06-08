@@ -1,7 +1,6 @@
 # main.py
 
 import student_data
-
 from calculations import calculate_average
 from calculations import calculate_grade
 from display import display_skills
@@ -14,7 +13,7 @@ from constants import PASS_MARK
 
 def main():
 
-    print("==== STUDENT TECH PROFILE SYSTEM ====\n")
+    print("\n==== STUDENT TECH PROFILE SYSTEM ====")
 
     python_score = student_data.python_score
     sql_score = student_data.sql_score
@@ -35,5 +34,6 @@ def main():
     print("\n Has Python Skill: ", has_python)
     print("\n Program Finished Successfully.")
 
-    if __name__ == "__main__":
-        main()
+
+if __name__ == "__main__":
+    main()
