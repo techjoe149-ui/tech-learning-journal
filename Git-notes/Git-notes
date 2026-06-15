@@ -1,0 +1,52 @@
+ CREATING A VERSION :
+
+1. Git init inside the directory you want to initialize
+2. Git status to see what changes have been made since the previous version. we run this command every time we make a commit . 
+3. when creating a version we run Git add to select a file or a folder name at the end the name . 
+5. If we want to add every change in every file/ folder we use Git add . 
+
+PICKING CHANGES :
+
+1. Git add 
+2. Git commmit -m
+
+
+
+
+MODIFYING :
+
+1. Git commit -m "version1" --ammend ( only used to modify the latest commit )
+2. To remove all the changes from our parent folder , we use git reset . 
+
+
+
+
+VIEWING PREVIOUS VERSIONS OF CODE :
+
+1. Git log displays / view version history 
+2. git checkout , space + hash commment of the specific version 
+
+
+
+SWITCHING BETWEEN DIFFERENT VERSIONS :
+
+1. Git checkout + ID of the version 
+2. Git log only shows the current commit as well as the commits behind the current but not in front 
+3. Git log --all shows all the commits we made.
+4. <main> tells us which version we're currently viewing .
+5. Git ammend --m can only modify the most recent commit .
+6. To edit older commits we cannot use git checkout instead we use git rebase -i 
+
+
+
+RESTORING CODE TO A PREVIOUS VERSION :
+
+1. Git log --all --graph brings you back to your main versions of commit from the branch . This means moving back . main points to the 
+latest commit from the branch . 
+
+2. Git checkout ID file retores what it was in the version1 .
+3. Git diff "file name" only shows changes in that file 
+4. Git diff --staged compares stages changes 
+
+
+
