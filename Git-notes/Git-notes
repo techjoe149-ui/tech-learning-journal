@@ -1,11 +1,11 @@
- CREATING A VERSION :
+ # CREATING A VERSION :
 
 1. Git init inside the directory you want to initialize
 2. Git status to see what changes have been made since the previous version. we run this command every time we make a commit . 
 3. when creating a version we run Git add to select a file or a folder name at the end the name . 
 5. If we want to add every change in every file/ folder we use Git add . 
 
-PICKING CHANGES :
+# PICKING CHANGES :
 
 1. Git add 
 2. Git commmit -m
@@ -13,7 +13,7 @@ PICKING CHANGES :
 
 
 
-MODIFYING :
+# MODIFYING :
 
 1. Git commit -m "version1" --ammend ( only used to modify the latest commit )
 2. To remove all the changes from our parent folder , we use git reset . 
@@ -21,14 +21,14 @@ MODIFYING :
 
 
 
-VIEWING PREVIOUS VERSIONS OF CODE :
+# VIEWING PREVIOUS VERSIONS OF CODE :
 
 1. Git log displays / view version history 
 2. git checkout , space + hash commment of the specific version 
 
 
 
-SWITCHING BETWEEN DIFFERENT VERSIONS :
+# SWITCHING BETWEEN DIFFERENT VERSIONS :
 
 1. Git checkout + ID of the version 
 2. Git log only shows the current commit as well as the commits behind the current but not in front 
@@ -39,7 +39,7 @@ SWITCHING BETWEEN DIFFERENT VERSIONS :
 
 
 
-RESTORING CODE TO A PREVIOUS VERSION :
+# RESTORING CODE TO A PREVIOUS VERSION :
 
 1. Git log --all --graph brings you back to your main versions of commit from the branch . This means moving back . main points to the 
 latest commit from the branch . 
