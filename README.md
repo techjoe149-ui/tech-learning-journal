@@ -6,7 +6,6 @@ AI Automation
 Cybersecurity
 Cloud 
 
-
 The goal is to build technical skills while maintaining professional documentation practice.
 
 
