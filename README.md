@@ -4,6 +4,8 @@ GitHub
 Linux
 AI Automation
 Cybersecurity
+Cloud 
+
 
 The goal is to build technical skills while maintaining professional documentation practice.
 
@@ -25,4 +27,5 @@ tech-learning-journal/
 │   ├── labs/
 │   └── projects/
 └── README.md
-```
+
+
